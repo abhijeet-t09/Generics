@@ -2,7 +2,7 @@ package com.bridgelabz;
 
 public class MaxValue {
 
-    void maxString(String val1, String val2, String val3){
+    public <K extends Comparable<K>> void maxValue(K val1, K val2, K val3){
 
         if((val1.compareTo(val2)) >= 0 && (val1.compareTo(val3)) >= 0)
             System.out.println("First Value: " + val1 + " is largest\n");
