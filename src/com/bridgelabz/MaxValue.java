@@ -2,7 +2,7 @@ package com.bridgelabz;
 
 public class MaxValue {
 
-    void maxFloat(Float val1, Float val2, Float val3){
+    void maxString(String val1, String val2, String val3){
 
         if((val1.compareTo(val2)) >= 0 && (val1.compareTo(val3)) >= 0)
             System.out.println("First Value: " + val1 + " is largest\n");
